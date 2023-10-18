@@ -6,6 +6,9 @@ import heart from "../assets/heart.png";
 import line from "../assets/line.png";
 import plus from "../assets/plus.png";
 import cat from "../assets/cat.png";
+import a1 from "../assets/a1.png";
+import a2 from "../assets/a2.png";
+import a3 from "../assets/a3.png";
 import { BsSoundwave } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
 import { TbMicrophone2 } from "react-icons/tb";
@@ -21,12 +24,12 @@ const Navbar = ({ show, setShow }) => {
   return (
     <div>
       <div className="bg-[#212121] lg:tall:h-screen lg:h-[calc(100vh+30rem)] relative hidden lg:block ">
-        <div className=" bg-zinc-800 py-[10px]">
+        <div className=" bg-zinc-800 py-[15px]">
           <div className="mb-[20px] px-[15px]">
             <img className="w-[120px]" src={logo} />
           </div>
           <div className="text-white ">
-            <div className="flex items-center gap-[10px] px-[15px] py-[10px] bg-gradient-to-r from-gray-500 to-black">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] bg-gradient-to-r from-gray-500 to-black">
               <div className="bg-gray-700 p-[3px] rounded-[10px]">
                 <BsSoundwave className="text-[30px]" />
               </div>
@@ -34,7 +37,7 @@ const Navbar = ({ show, setShow }) => {
             </div>
           </div>
           <div className="text-white ">
-            <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
               <div className="bg-gray-700 p-[3px] rounded-[10px]">
                 <AiFillStar className="text-[30px]" />
               </div>
@@ -42,7 +45,7 @@ const Navbar = ({ show, setShow }) => {
             </div>
           </div>
           <div className="text-white ">
-            <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
               <div className="bg-gray-700 p-[3px] rounded-[10px]">
                 <img className="w-[30px]" src={cat} />
               </div>
@@ -50,18 +53,18 @@ const Navbar = ({ show, setShow }) => {
             </div>
           </div>
           <div className="text-white ">
-            <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
               <div className="bg-gray-700 p-[3px] rounded-[10px]">
                 <TbMicrophone2 className="text-[30px]" />
               </div>
               <h4 className="text-[17px] font-medium">Top 50 podcasts</h4>
             </div>
           </div>
-          <div className="px-[15px] py-[10px] text-white flex gap-[10px] items-center ">
+          <div className="px-[15px] py-[15px] text-white flex gap-[10px] items-center ">
             <h4 className="text-[18px] font-semibold">Your Library</h4>
             <AiFillCaretDown />
           </div>
-          <div className="px-[15px] py-[10px] flex gap-[30px]">
+          <div className="px-[15px] py-[15px] flex gap-[30px]">
             <div>
               <img className="w-[20px] " src={heart} />
             </div>
@@ -72,9 +75,30 @@ const Navbar = ({ show, setShow }) => {
               <img className="w-[20px] " src={plus} />
             </div>
           </div>
-        </div>
-        <div className="bg-white absolute bottom-[39px] ml-[32px] p-[12px] rounded-[20px] mt-[40px]">
-          <img className="w-[111px]" src={logo} />
+          <div className="text-white ">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
+              <div className="bg-gray-700 p-[8px] rounded-[10px]">
+                <img className="w-[20px]" src={a1} />
+              </div>
+              <h4 className="text-[17px] font-medium">Your playlist</h4>
+            </div>
+          </div>
+          <div className="text-white ">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
+              <div className="bg-gray-700 p-[8px] rounded-[10px]">
+                <img className="w-[20px]" src={a2} />
+              </div>
+              <h4 className="text-[17px] font-medium">Recently played</h4>
+            </div>
+          </div>
+          <div className="text-white ">
+            <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
+              <div className="bg-gray-700 p-[8px] rounded-[10px]">
+                <img className="w-[20px]" src={a3} />
+              </div>
+              <h4 className="text-[17px] font-medium">Subscriptions & Hosts</h4>
+            </div>
+          </div>
         </div>
       </div>
       <div className="pt-[12px] pb-[12px] md:px-[64px] px-[16px] bg-gray-700 block lg:hidden">
@@ -116,12 +140,12 @@ const Navbar = ({ show, setShow }) => {
               />
             </div>
 
-            <div className=" bg-zinc-800 py-[10px] h-full">
+            <div className=" bg-zinc-800 py-[15px] h-full">
               <div className="mb-[20px] px-[15px]">
                 <img className="w-[120px]" src={logo} />
               </div>
               <div className="text-white ">
-                <div className="flex items-center gap-[10px] px-[15px] py-[10px] bg-gradient-to-r from-gray-500 to-black">
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] bg-gradient-to-r from-gray-500 to-black">
                   <div className="bg-gray-700 p-[3px] rounded-[10px]">
                     <BsSoundwave className="text-[30px]" />
                   </div>
@@ -129,7 +153,7 @@ const Navbar = ({ show, setShow }) => {
                 </div>
               </div>
               <div className="text-white ">
-                <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
                   <div className="bg-gray-700 p-[3px] rounded-[10px]">
                     <AiFillStar className="text-[30px]" />
                   </div>
@@ -137,25 +161,60 @@ const Navbar = ({ show, setShow }) => {
                 </div>
               </div>
               <div className="text-white ">
-                <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
                   <div className="bg-gray-700 p-[3px] rounded-[10px]">
-                    <AiFillStar className="text-[30px]" />
+                    <img className="w-[30px]" src={cat} />
                   </div>
                   <h4 className="text-[17px] font-medium">Category</h4>
                 </div>
               </div>
               <div className="text-white ">
-                <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
                   <div className="bg-gray-700 p-[3px] rounded-[10px]">
                     <TbMicrophone2 className="text-[30px]" />
                   </div>
                   <h4 className="text-[17px] font-medium">Top 50 podcasts</h4>
                 </div>
               </div>
+              <div className="px-[15px] py-[15px] text-white flex gap-[10px] items-center ">
+                <h4 className="text-[18px] font-semibold">Your Library</h4>
+                <AiFillCaretDown />
+              </div>
+              <div className="px-[15px] py-[15px] flex gap-[30px]">
+                <div>
+                  <img className="w-[20px] " src={heart} />
+                </div>
+                <div>
+                  <img className="w-[20px] " src={line} />
+                </div>
+                <div>
+                  <img className="w-[20px] " src={plus} />
+                </div>
+              </div>
               <div className="text-white ">
-                <div className="flex items-center gap-[10px] px-[15px] py-[10px] ">
-                  <BsSoundwave className="text-[30px]" />
-                  <h4 className="text-[17px] font-medium">Discover</h4>
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
+                  <div className="bg-gray-700 p-[8px] rounded-[10px]">
+                    <img className="w-[20px]" src={a1} />
+                  </div>
+                  <h4 className="text-[17px] font-medium">Your playlist</h4>
+                </div>
+              </div>
+              <div className="text-white ">
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
+                  <div className="bg-gray-700 p-[8px] rounded-[10px]">
+                    <img className="w-[20px]" src={a2} />
+                  </div>
+                  <h4 className="text-[17px] font-medium">Recently played</h4>
+                </div>
+              </div>
+              <div className="text-white ">
+                <div className="flex items-center gap-[10px] px-[15px] py-[15px] ">
+                  <div className="bg-gray-700 p-[8px] rounded-[10px]">
+                    <img className="w-[20px]" src={a3} />
+                  </div>
+                  <h4 className="text-[17px] font-medium">
+                    Subscriptions & Hosts
+                  </h4>
                 </div>
               </div>
             </div>

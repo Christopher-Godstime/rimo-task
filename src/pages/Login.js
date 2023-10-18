@@ -7,7 +7,11 @@ import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 const Login = () => {
   const { auth, alert } = useSelector((state) => state);
   const dispatch = useDispatch();
-  const history = useNavigate();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (auth.token) navigate("/home");
+  }, [auth.token, navigate]);
 
   const initialState = {
     email: "",
@@ -27,10 +31,6 @@ const Login = () => {
   const toggle1 = () => {
     setOpen1(!open1);
   };
-
-  useEffect(() => {
-    if (auth.token) history("/login");
-  }, [auth.token, history]);
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;

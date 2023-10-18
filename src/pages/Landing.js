@@ -16,6 +16,8 @@ import profile2 from "../assets/profile2.png";
 import e6 from "../assets/e6.png";
 import e7 from "../assets/e7.png";
 import e8 from "../assets/e8.png";
+import group from "../assets/group.png";
+import group1 from "../assets/group1.png";
 import { BsSoundwave } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
 import { TbMicrophone2 } from "react-icons/tb";
@@ -29,7 +31,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const Landing = () => {
   return (
     <div className="h-[calc(100vh)] overflow-y-auto overflow-x-auto w-full">
-      <div className=" flex  text-white">
+      <div className=" flex  text-white pb-[80px]">
         <div className=" py-[20px] px-[20px] ">
           <div className="flex justify-between items-center w-full gap-[100px]">
             <div className="w-full relative">
@@ -83,7 +85,7 @@ const Landing = () => {
                 </div>
                 <div className="mt-[10px] ">
                   <div className="flex flex-nowrap overflow-x-auto gap-[10px] w-[400px] xl:w-full">
-                    <div className="w-[350px] bg-gray-800 rounded-[5px]">
+                    <div className="min-w-[250px] bg-gray-800 rounded-[5px]">
                       <img src={small} />
                       <div className="mx-[10px] mb-[10px]">
                         <h4 className="font-semibold">WTF</h4>
@@ -95,7 +97,7 @@ const Landing = () => {
                       </div>
                     </div>
 
-                    <div className="w-[350px] bg-gray-800 rounded-[5px]">
+                    <div className="min-w-[250px] bg-gray-800 rounded-[5px]">
                       <img src={small} />
                       <div className="mx-[10px] mb-[10px]">
                         <h4 className="font-semibold">WTF</h4>
@@ -107,7 +109,7 @@ const Landing = () => {
                       </div>
                     </div>
 
-                    <div className="w-[350px] bg-gray-800 rounded-[5px]">
+                    <div className="min-w-[250px] bg-gray-800 rounded-[5px]">
                       <img src={small} />
                       <div className="mx-[10px] mb-[10px]">
                         <h4 className="font-semibold">WTF</h4>
@@ -119,7 +121,7 @@ const Landing = () => {
                       </div>
                     </div>
 
-                    <div className="w-[350px] bg-gray-800 rounded-[5px]">
+                    <div className="min-w-[250px] bg-gray-800 rounded-[5px]">
                       <img src={small} />
                       <div className="mx-[10px] mb-[10px]">
                         <h4 className="font-semibold">WTF</h4>
@@ -182,8 +184,147 @@ const Landing = () => {
               </button>
             </div>
           </div>
+
+          <hr class="mt-[30px] border-gray-600" />
+          <div className="mt-[10px] my-[30px]">
+            <div className="flex gap-[10px] mt-[20px] mb-[30px]">
+              <div className="bg-gray-600 rounded-[6px] p-[3px] h-fit">
+                <MdOutlineWifiTethering className="text-[25px]" />
+              </div>
+              <div className="">
+                <h4 className="text-[22px] font-semibold">
+                  Popular & Trending Podcasts
+                </h4>
+                <h4 className="text-gray-400">#Community's choice</h4>
+              </div>
+            </div>
+            <div className="flex flex-nowrap overflow-x-auto gap-[15px] w-[800px] ">
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="min-w-[200px] bg-gray-800 rounded-[5px]">
+                <img src={group1} />
+                <div className="mx-[10px] mb-[10px]">
+                  <h4 className="font-semibold">How Did Things Ge</h4>
+                  <h4 className="text-[14px]">By: Mike & May</h4>
+                  <div className=" mt-[5px] mb-[10px]">
+                    <img src={group} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="mt-[30px] border-gray-600" />
           <div>
-            <div className="mt-[10px]">
+            <div className="mt-[30px]">
               <h4 className="text-[22px] font-semibold">
                 Podcast host suggestions
               </h4>
@@ -239,7 +380,9 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="mt-[50px]">
+          <hr class="mt-[50px] border-gray-600" />
+
+          <div className="mt-[30px] w-[1000px]">
             <div className="mt-[10px]">
               <h4 className="text-[22px] font-semibold">
                 Discover other listeners
@@ -391,6 +534,296 @@ const Landing = () => {
                 </h4>
                 <button className="bg-gray-100 w-full py-[5px] border-[2px] border-blue-400 mt-[5px] rounded-[20px] font-bold">
                   Follow
+                </button>
+              </div>
+            </div>
+
+            <button className="w-full bg-gray-800 py-[10px] mt-[30px] rounded-[6px]">
+              Load more
+            </button>
+          </div>
+
+          <div className="mt-[50px]">
+            <div className="flex gap-[10px] mt-[20px] mb-[30px] items-center">
+              <div className="bg-gray-600 rounded-[6px] p-[3px] h-fit">
+                <MdOutlineWifiTethering className="text-[25px]" />
+              </div>
+              <div className="">
+                <h4 className="text-[22px] font-semibold">
+                  Search by popular keywords
+                </h4>
+              </div>
+            </div>
+
+            <div className="m">
+              <div className="flex gap-[10px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
+                </button>
+              </div>
+              <div className="flex gap-[10px] mt-[15px]">
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #engagement
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #relationship
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #football
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hiphop
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #hollywood
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #sex&romance
+                </button>
+                <button className="py-[8px] px-[20px] rounded-[30px] bg-gray-700">
+                  #travel&tour
                 </button>
               </div>
             </div>

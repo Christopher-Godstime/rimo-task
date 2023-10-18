@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { register } from "../redux/actions/authAction";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate, NavLink } from "react-router-dom";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 
 const Registration = () => {
   const { auth, alert } = useSelector((state) => state);
   const dispatch = useDispatch();
-  const history = useNavigate();
+  const navigate = useNavigate();
 
   const initialState = {
     first_name: "",
@@ -46,10 +46,6 @@ const Registration = () => {
   const toggle1 = () => {
     setOpen1(!open1);
   };
-
-  useEffect(() => {
-    if (auth.token) history("/login");
-  }, [auth.token, history]);
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
@@ -273,6 +269,15 @@ const Registration = () => {
               </button>
             </div>
           </form>
+
+          <div className="flex justify-center mt-[64px]">
+            <h4 className="text-sm font-medium text-gray-400">
+              Already have an account?
+            </h4>
+            <h4 className="text-sm font-medium text-blue-400  ml-1 ">
+              <NavLink to="/login">Login Now</NavLink>
+            </h4>
+          </div>
         </div>
       </div>
     </div>

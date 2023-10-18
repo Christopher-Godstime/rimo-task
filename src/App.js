@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Registration from "./pages/Registration";
 import Login from "./pages/Login";
 import Alert from "./components/alert/Alert";
+import Home from "./pages/Home";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -57,8 +58,13 @@ function AppContent() {
             <Route path="/" element={<Landing />} />
             <Route path="/register" element={<Registration />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/home" element={<Home />} />
           </Routes>
         </div>
+      </div>
+      <div className="bg-[#272727] text-white flex gap-[30px] py-[15px] pl-[20%]">
+        <h4>Help</h4>
+        <h4>Settings</h4>
       </div>
     </div>
   );

@@ -36,11 +36,9 @@ export const login = (data) => async (dispatch) => {
 
     const res = await postDataApi("login", data);
 
-    console.log(res.data.message);
-
     dispatch({
       type: GLOBALTYPES.AUTH,
-      payload: { token: res.data.token, user: res.data.user },
+      payload: { token: res.data.data.token, user: res.data.data.user },
     });
 
     localStorage.setItem("firstLogin", true);
@@ -51,6 +49,8 @@ export const login = (data) => async (dispatch) => {
       type: GLOBALTYPES.ALERT,
       payload: { success: res.data.message },
     });
+
+    console.log(res);
   } catch (err) {
     dispatch({
       type: GLOBALTYPES.ALERT,
